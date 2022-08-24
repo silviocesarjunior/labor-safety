@@ -14,7 +14,7 @@ const Intro = () => {
                 <div className='i-name'>
                     <span>Bem vindo ao</span>
                     <span>X treinamentos</span>
-                    <span>Treinamentos de segurança do trabalho, combate a incêndio, primeiros socorros</span>
+                    <span>Treinamentos de segurança do trabalho, combate a incêndio e primeiros socorros</span>
                 </div>
                 <button className='button i-button'>Entre em contato</button>
                 <div className='i-icons'>
