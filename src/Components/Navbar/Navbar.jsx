@@ -6,7 +6,6 @@ const Navbar = () => {
     <div className='n-wrapper'>
       <div className='n-left'>
         <div className='n-name'>X treinamentos</div>
-        <span>dark/white</span>
       </div>
       <div className='n-right'>
         <div className='n-list'>
