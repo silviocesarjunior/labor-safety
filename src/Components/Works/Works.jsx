@@ -5,24 +5,25 @@ import Facebook from '../../Img/facebook.png';
 import Mac from '../../Img/mac.png';
 import Nissan from '../../Img/nissan.png';
 import Volkswagen from '../../Img/volkswagen.png';
-
+import { Link } from 'react-scroll';
 
 const Works = () => {
     return (
-        <div className='works'>
+        <div className='works' id='Works'>
             {/*left side*/}
             <div className='awesome'>
-                <span>Meus trabalhos</span>
-                <span>Marcas e Clientes</span>
+                <span>Nossos trabalhos</span>
+                <span>Clientes e parceiros</span>
                 <spane>
                     Em Breve descrição dos treinamentos praticados.
                     <br />
-                    Treinamentos como primeiros socorros,combate a incêndio e outros.
-                    <br />
-                    Em Breve descrição dos trabalhos já realizados.
+                    Nenhum trabalho é tão importante e urgente que <br/>não possa 
+                    ser planejado, e executado com <br/>
+                    segurança.
                 </spane>
                 <br />
-                <button className='button i-button'>Contrate-me</button>
+                <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
+                <button className='button i-button'>Contrate-me</button></Link>
                 <div className='blur s-blurl' style={{ background: "#ABF1FF94" }}></div>
             </div>
 

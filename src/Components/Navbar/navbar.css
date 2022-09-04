@@ -26,6 +26,7 @@
 
 .n-list {
     flex: 10;
+    cursor: pointer;
 }
 
 .n-list>ul {
@@ -41,4 +42,13 @@
 
 .n-button {
     flex: 2;
+}
+
+@media screen and (max-width: 480px) {
+    .n-list{
+        display: none;
+    }
+    .n-button{
+        display: none;
+    }
 }

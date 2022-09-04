@@ -1,16 +1,18 @@
 .floatingdiv {
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     background: white;
     box-shadow: var(--boxShadhow);
     border-radius: 17px;
     align-items: center;
-    padding: 0px 28px 0px 0px;
+    padding: 0px 2px 0px 0px;
     height: 4.5rem;
+    padding-left: 1px;
+    padding-right: 8px;
 }
 
 .floatingdiv>img{
-    transform: scale(0.4);
+    transform: scale(0.3);
 }
 
 .floatingdiv>span {
@@ -21,6 +23,6 @@
 .i-right>:nth-child(4){
     transform: scale(0.7);
     top: -19%;
-    border-radius: 50%;
+    border-radius: 30%;
 
 }

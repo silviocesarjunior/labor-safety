@@ -8,48 +8,79 @@ import sprinter from '../../Img/sprinter.png';
 
 const Services = () => {
     return (
-        <div className='services'>
+        <div className='services' id='Services'>
             {/*left side*/}
             <div className='awesome'>
-                <span>Meus treinamentos</span>
-                <span>serviços</span>
-                <spane>
-                    Breve descrição dos treinamentos praticados.
-                    <br />
-                    Treinamentos como primeiros socorros,combate a incêndio e outros.
-                </spane>
+                <span>Treinamentos aplicados</span>
+                <span>Serviços</span>
+                <span>
+                    Obs. Para os treinamentos NR 10 Básico e SEP,<br />e recolhido a ART dos treinamentos.
+                </span>
             </div>
             {/*right side*/}
             <div className='cards'>
-                <div style={{ left: '11rem' }}>
+                {/*1 card*/}
+                <div style={{ left: '6rem' }}>
                     <Card
                         emoji={safety}
-                        heading={'Primeiros socorros'}
-                        detail={'Treinamento teórico e prático...'}
+                        heading={'NR01'}
+                        detail={'Elaboração e Treinamentos de Ordens de Serviços em Segurança e Saúde no Trabalho'}
                     />
                 </div>
-                {/*second card*/}
-                <div style={{ top: '12rem', left: '-4rem' }}>
+                {/*2 card*/}
+                <div style={{ top: '17rem', left: '6rem' }}>
                     <Card
                         emoji={fire}
-                        heading={'Combate a incêndio'}
-                        detail={'Treinamento teórico e prático...'}
+                        heading={'NR05 - CIPA'}
+                        detail={'Comissão Interna de Prevenção de Acidentes'}
                     />
                 </div>
-                {/*3rd card*/}
-                <div style={{ top: '17rem', left: '11rem' }}>
+                {/*3 card*/}
+                <div style={{ top: '17rem', left: '21rem' }}>
                 <Card
                         emoji={labor}
-                        heading={'Segurança na fábrica'}
-                        detail={'Treinamento teórico e prático...'}
+                        heading={'NR06'}
+                        detail={'Equipamento de Proteção Individual'}
                     />
                 </div>
-                {/*4rd card*/}
-                <div style={{ top: '10rem', left: '26rem' }}>
+                {/*4 card*/}
+                <div style={{left: '21rem' }}>
                 <Card
                         emoji={sprinter}
-                        heading={'Sistemas de combate'}
-                        detail={'Treinamento teórico e prático...'}
+                        heading={'NR07'}
+                        detail={'Primeiros socorros/desfibrilador externo automático DEA'}
+                    />
+                </div>
+                {/*5 card*/}
+                <div style={{ top: '17rem', left: '-24rem' }}>
+                    <Card
+                        emoji={safety}
+                        heading={'NR10'}
+                        detail={'Segurança em instalações e serviços em eletricidade'}
+                    />
+                </div>
+                {/*6 card*/}
+                <div style={{ top: '17rem', left: '-9rem' }}>
+                    <Card
+                        emoji={fire}
+                        heading={'NR10 - SEP'}
+                        detail={'Sistema Elétrico de Potência'}
+                    />
+                </div>
+                {/*7 card*/}
+                <div style={{ top: '17rem', left: '36rem' }}>
+                <Card
+                        emoji={sprinter}
+                        heading={'NR11'}
+                        detail={'Talha e Ponte Rolante'}
+                    />
+                </div>
+                 {/*8 card*/}
+                 <div style={{left: '36rem' }}>
+                <Card
+                        emoji={sprinter}
+                        heading={'NR11'}
+                        detail={'Operador de Empilhadeira'}
                     />
                 </div>
                 <div className='blur s-blur2' style={{background: 'var(--purple)'}}></div>

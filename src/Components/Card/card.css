@@ -1,12 +1,11 @@
 .card {
-    width: 3rem;
-    height: 10rem;
+    height: 16rem;
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
     align-items: center;
-    width: 10rem;
+    width: 14rem;
     align-items: center;
     background: rgba(255,255,255,0.26);
     border: 7px solid var(--orangeCard);
@@ -53,3 +52,4 @@
     top: 13rem;
     left: -18rem;
 }
+
