@@ -11,7 +11,7 @@ const Services = () => {
         <div className='services' id='Services'>
             {/*left side*/}
             <div className='awesome'>
-                <span>Treinamentos aplicados</span>
+                <span>Treinamentos</span>
                 <span>Serviços</span>
                 <span>
                     Obs. Para os treinamentos NR 10 Básico e SEP,<br />e recolhido a ART dos treinamentos.

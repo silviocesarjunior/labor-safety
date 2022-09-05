@@ -1,10 +1,18 @@
 import React from 'react';
 import './works.css';
-import Amazon from '../../Img/amazon.png';
-import Facebook from '../../Img/facebook.png';
-import Mac from '../../Img/mac.png';
-import Nissan from '../../Img/nissan.png';
-import Volkswagen from '../../Img/volkswagen.png';
+import Cliente1 from '../../Img/1.png';
+import Cliente2 from '../../Img/2.png';
+import Cliente3 from '../../Img/3.png';
+import Cliente4 from '../../Img/4.png';
+import Cliente5 from '../../Img/5.png';
+import Cliente6 from '../../Img/6.jpg';
+import Cliente7 from '../../Img/7.png';
+import Cliente8 from '../../Img/8.png';
+import Cliente9 from '../../Img/9.png';
+import Cliente10 from '../../Img/10.png';
+import Cliente11 from '../../Img/11.png';
+import Cliente12 from '../../Img/12.png';
+import Cliente13 from '../../Img/13.png';
 import { Link } from 'react-scroll';
 
 const Works = () => {
@@ -12,11 +20,9 @@ const Works = () => {
         <div className='works' id='Works'>
             {/*left side*/}
             <div className='awesome'>
-                <span>Nossos trabalhos</span>
+                <span>Venha ser nosso parceiro</span>
                 <span>Clientes e parceiros</span>
                 <spane>
-                    Em Breve descrição dos treinamentos praticados.
-                    <br />
                     Nenhum trabalho é tão importante e urgente que <br/>não possa 
                     ser planejado, e executado com <br/>
                     segurança.
@@ -31,19 +37,43 @@ const Works = () => {
             <div className='w-right'>
                 <div className='w-mainCircle'>
                     <div className='w-secCircle'>
-                        <img src={Amazon} alt="" />
+                        <img src={Cliente1} alt="" />
                     </div>
                     <div className='w-secCircle'>
-                        <img src={Facebook} alt="" />
+                        <img src={Cliente2} alt="" />
                     </div>
                     <div className='w-secCircle'>
-                        <img src={Mac} alt="" />
+                        <img src={Cliente3} alt="" />
                     </div>{" "}
                     <div className='w-secCircle'>
-                        <img src={Nissan} alt="" />
+                        <img src={Cliente4} alt="" />
                     </div>
                     <div className='w-secCircle'>
-                        <img src={Volkswagen} alt="" />
+                        <img src={Cliente5} alt="" />
+                    </div>
+                    <div className='w-secCircle'>
+                        <img src={Cliente6} alt="" />
+                    </div>
+                    <div className='w-secCircle'>
+                        <img src={Cliente7} alt="" />
+                    </div>
+                    <div className='w-secCircle'>
+                        <img src={Cliente8} alt="" />
+                    </div>
+                    <div className='w-secCircle'>
+                        <img src={Cliente9} alt="" />
+                    </div>
+                    <div className='w-secCircle'>
+                        <img src={Cliente10} alt="" />
+                    </div>
+                    <div className='w-secCircle'>
+                        <img src={Cliente11} alt="" />
+                    </div>
+                    <div className='w-secCircle'>
+                        <img src={Cliente12} alt="" />
+                    </div>
+                    <div className='w-secCircle'>
+                        <img src={Cliente13} alt="" />
                     </div>
                 </div>
                 {/*background circles*/}

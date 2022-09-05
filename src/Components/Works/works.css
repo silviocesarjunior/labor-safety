@@ -28,23 +28,74 @@
 .w-mainCircle> :nth-child(1) {
     top: -2rem;
     left: 6rem;
+    transform: scale(0.8);
 }
 
 .w-mainCircle> :nth-child(2) {
     left: -2rem;
     top: 6rem;
+    transform: scale(0.8);
 }
 .w-mainCircle > :nth-child(3) {
     left: 6rem;
     top: 6rem;
+    transform: scale(0.8);
 }
 .w-mainCircle > :nth-child(4) {
     left: 15rem;
     top: 6rem;
+    transform: scale(0.8);
 }
 .w-mainCircle > :nth-child(5) {
     left: 6rem;
     top: 15.5rem;
+    transform: scale(0.8);
+}
+.w-mainCircle > :nth-child(6) {
+    left: 14rem;
+    top: 11rem;
+    transform: scale(0.8);
+}
+.w-mainCircle > :nth-child(7) {
+    left: 13rem;
+    top: 1rem;
+    transform: scale(0.8);
+}
+
+.w-mainCircle > :nth-child(8) {
+    left: -1rem;
+    top: 11rem;
+    transform: scale(0.8);
+}
+
+.w-mainCircle > :nth-child(9) {
+    left: 20rem;
+    top: -3.5rem;
+    transform: scale(0.8);
+}
+
+.w-mainCircle > :nth-child(10) {
+    left: -3rem;
+    top: 1rem;
+    transform: scale(0.8);
+}
+
+.w-mainCircle > :nth-child(11) {
+    left: 17rem;
+    top: 15em;
+    transform: scale(0.8);
+}
+
+.w-mainCircle > :nth-child(12) {
+    left: 24rem;
+    top: 1em;
+    transform: scale(0.8);
+}
+
+.w-mainCircle > :nth-child(13) {
+    left: 23.5rem;
+    top: 9em;
+    transform: scale(0.8);
 }
 
 .w-secCircle {
@@ -52,13 +103,10 @@
     height: 6rem;
     position: absolute;
     border-radius: 100%;
-    border: 5px solid #ebebeb;
     display: flex;
     align-items: center;
     justify-content: center;
     background: "none";
-    box-shadow: var(--smboxShadow);
-    background: white;
 }
 
 .w-secCircle >img {
@@ -75,21 +123,21 @@
 
 .blueCircle {
     background: #1949B8;
-    left: 18rem;
+    left: 20rem;
     top: 0rem;
 }
 
 .yellowCircle {
     background: #F5c32C;
-    left: 18rem;
+    left: 20rem;
     top: 8rem;
 }
 
 @media screen and (max-width: 480px) {
     .works {
         flex-direction: column;
-        height: 55rem;
-        padding: 0;
+        height: 80rem;
+        padding-top: 900px;
         gap: 5rem;
     }
     .w-righ{

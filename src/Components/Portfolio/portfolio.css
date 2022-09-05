@@ -143,12 +143,14 @@
 @media screen and (max-width: 480px) {
     .container {
       overflow: scroll;
+      padding-top: 500px;
     }
     .box{
       flex-direction: column;
+      height: 100px;
     }
     .modal .right,
     .modal .left {
       padding: 0;
     }
-  }
+}

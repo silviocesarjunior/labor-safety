@@ -10,7 +10,7 @@ const Portfolio = () => {
             <section className="portfolio top" id="Portfolio">
                 <div className="container">
                     <div className="heading text-center">
-                        <h1>Veja os meus projetos</h1>
+                        <h1>Nossos treinamentos</h1>
                     </div>
                     
                     <div className="content grid">

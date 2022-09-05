@@ -1,9 +1,10 @@
 import React from 'react';
 import './intro.css';
+import './../FloatingDiv/floatingdiv.css';
 import Linkedin from '../../Img/linkedin.png';
 import Vector1 from '../../Img/Vector1.png';
 import Vector2 from '../../Img/Vector2.png';
-import boy from '../../Img/boy.png';
+import boy from '../../Img/boy3.png';
 import floating from '../../Img/floating.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 
@@ -28,7 +29,7 @@ const Intro = () => {
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={boy} alt="" />
-                <div style={{ top: '-4%', left: '68%' }} className='floating-div'>
+                <div style={{ top: '-4%', left: '60%' }} className='floating-div'>
                     <FloatingDiv image={floating} txt1='Primeiros' txt2='socorros' />
                 </div>
                 {/*blur divs */}

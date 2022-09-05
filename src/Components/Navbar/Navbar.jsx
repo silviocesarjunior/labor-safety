@@ -1,12 +1,13 @@
 import React from 'react';
 import './navbar.css';
 import { Link } from 'react-scroll';
+import Logo from '../../Img/logo2.png';
 
 const Navbar = () => {
   return (
     <div className='n-wrapper'>
       <div className='n-left'>
-        <div className='n-name'>N&R</div>
+      <img src={Logo} alt="" />
       </div>
       <div className='n-right'>
         <div className='n-list'>
@@ -18,7 +19,7 @@ const Navbar = () => {
               <li>Serviços</li>
             </Link>
             <Link spy={true} to='Experience' smooth={true} activeClass='activeClass'>
-              <li>Experiência</li>
+              <li>Equipe</li>
             </Link>
             <Link spy={true} to='Works' smooth={true} activeClass='activeClass'>
               <li>Clientes</li>
@@ -26,6 +27,7 @@ const Navbar = () => {
             <Link spy={true} to='Portfolio' smooth={true} activeClass='activeClass'>
               <li>Projetos</li>
             </Link>
+            <li>Consultoria</li>
 
           </ul>
         </div>
