@@ -14,7 +14,7 @@ Site voltado para consultoria e treinamento em segurança do trabalho, com trein
 <br>
 
 <p align="center">
-  <img alt="NR treinamentos" src="./treinamento.png" width="50%">
+  <img alt="NR treinamentos" src="./treinamentos.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
